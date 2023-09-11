@@ -1,5 +1,5 @@
 import Main from "./pages/Main";
-import Navbar1 from "./components/NavigationBars/Navbar1";
+import Navbar1 from "./components/NavigationBars/Navbar1/Navbar1";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {

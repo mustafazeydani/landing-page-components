@@ -6,15 +6,7 @@ function NavigationBars({ setSelectedSection }) {
     {
       name: "Navigation Bar 1",
       link: "/navbar1",
-    },
-    {
-      name: "Navigation Bar 2",
-      link: "/navbar2",
-    },
-    {
-      name: "Navigation Bar 3",
-      link: "/navbar3",
-    },
+    }
   ]);
   return (
     <>
@@ -26,7 +18,7 @@ function NavigationBars({ setSelectedSection }) {
         ))}
       </div>
       <button
-        className="btn block mt-4 mx-auto"
+        className="btn btn-primary block mt-4 mx-auto"
         onClick={() => setSelectedSection(null)}
       >
         Back
