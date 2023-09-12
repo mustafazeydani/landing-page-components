@@ -6,13 +6,17 @@ function NavigationBars({ setSelectedSection }) {
     {
       name: "Navigation Bar 1",
       link: "/navbar1",
+    },
+    {
+      name: "Navigation Bar 2",
+      link: "/navbar2",
     }
   ]);
   return (
     <>
       <div className="flex flex-wrap gap-4 mt-4 justify-center">
-        {navigationBars.map(({ name, link }) => (
-          <Link to={link} className="btn">
+        {navigationBars.map(({ name, link }, index) => (
+          <Link to={link} key={index} className="btn">
             {name}
           </Link>
         ))}
