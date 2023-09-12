@@ -1,9 +1,5 @@
 export const listItems = [
     {
-      name: "Home",
-      subMenu: false,
-    },
-    {
       name: "Men",
       subMenu: [
         {

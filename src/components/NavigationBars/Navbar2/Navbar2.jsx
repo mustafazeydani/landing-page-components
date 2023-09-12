@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Startup from "../assets/startup.svg";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import NavLinks from "./NavLinks";
+import MobileMenu from "./MobileMenu";
+import Menu from "./Menu"
 
 function Navbar2() {
   const [isClicked, setIsClicked] = useState(false);
@@ -17,13 +18,18 @@ function Navbar2() {
           </div>
 
           {/* Middle */}
-          <ul
-            className={`md:flex md:static w-full md:w-auto absolute p-6 left-0 gap-8 top-24 transition-all duration-350 ease-out ${
+          <ul className="hidden md:flex gap-8">
+            <Menu />
+          </ul>
+
+          {/* MobileNav */}
+          <div
+            className={`md:hidden w-full absolute p-6 left-0 gap-8 top-24 transition-all duration-350 ease-out ${
               !isClicked && "-left-full"
             } bg-white`}
           >
-            <NavLinks />
-          </ul>
+              <MobileMenu />
+          </div>
 
           {/* Right */}
           <div className="flex items-center gap-4">
