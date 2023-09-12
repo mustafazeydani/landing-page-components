@@ -22,14 +22,14 @@ const MobileMenu = () => {
       {listItems.map(({ name, subMenu }, index) => (
         <li className="my-8" key={index}>
           <div
-            className="hover:text-pink-700 hover:cursor-pointer"
+            className="flex pr-4 justify-between hover:text-pink-700 hover:cursor-pointer"
             onClick={() => handleOpenHeading(name)}
           >
             <span>{name}</span>
             {openHeading !== name ? (
-              <ChevronDownIcon className={`inline h-4 w-4 ml-1`} />
+              <ChevronDownIcon className={`h-4 w-4`} />
             ) : (
-              <ChevronUpIcon className={`inline h-4 w-4 ml-1`} />
+              <ChevronUpIcon className={`h-4 w-4`} />
             )}
           </div>
 
@@ -38,14 +38,14 @@ const MobileMenu = () => {
               {subMenu.map(({ header, subMenu2 }, index) => (
                 <li key={index}>
                   <div
-                    className="hover:text-pink-700 hover:cursor-pointer"
+                    className="flex justify-between pl-4 hover:text-pink-700 hover:cursor-pointer"
                     onClick={() => handleOpenSubHeading(header)}
                   >
-                    <span className="pl-4">{header}</span>
+                    <span>{header}</span>
                     {openSubHeading !== header ? (
-                      <ChevronDownIcon className={`inline h-4 w-4 ml-1`} />
+                      <ChevronDownIcon className={`h-4 w-4`} />
                     ) : (
-                      <ChevronUpIcon className={`inline h-4 w-4 ml-1`} />
+                      <ChevronUpIcon className={`h-4 w-4`} />
                     )}
                   </div>
 

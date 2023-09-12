@@ -24,7 +24,7 @@ function Navbar2() {
 
           {/* MobileNav */}
           <div
-            className={`md:hidden w-full absolute p-6 left-0 gap-8 top-24 transition-all duration-350 ease-out ${
+            className={`md:hidden w-full absolute p-6 left-0 top-24 transition-all duration-350 ease-out ${
               !isClicked && "-left-full"
             } bg-white`}
           >
