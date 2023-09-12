@@ -23,8 +23,8 @@ function Navbar1() {
 
       {/* Middle */}
       <ul
-        className={`md:flex md:static gap-8 absolute top-24 right-0  
-        ${!isClicked && "-right-full"} 
+        className={`md:flex md:static gap-8 absolute top-24 
+        ${!isClicked ? "-right-full" : "right-0"} 
         md:p-0 p-4 md:w-auto w-full md:shadow-none shadow-md transition-all duration-500 ease-out bg-white`}
       >
         <li className="mb-4 md:mb-0">
