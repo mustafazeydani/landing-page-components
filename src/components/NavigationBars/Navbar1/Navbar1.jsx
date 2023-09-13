@@ -7,7 +7,7 @@ import {
 } from "@heroicons/react/24/solid";
 
 function Navbar1() {
-  const [isClicked, setIsClicked] = useState(true);
+  const [isClicked, setIsClicked] = useState(false);
   const listItems = ["Home", "Features", "Blog", "Shop"];
   // add underline animation
   const menuItemStyle =
