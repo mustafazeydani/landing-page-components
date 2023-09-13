@@ -34,7 +34,7 @@ const MobileMenu = () => {
           </div>
 
           {openHeading === name && (
-            <ul className="flex flex-col gap-6 mt-6">
+            <ul className="flex flex-col gap-8 mt-8">
               {subMenu.map(({ header, subMenu2 }, index) => (
                 <li key={index}>
                   <div
@@ -53,7 +53,7 @@ const MobileMenu = () => {
                     <ul
                       className={`${
                         openSubHeading === header ? "flex" : "hidden"
-                      } flex-col gap-6 mt-6`}
+                      } flex-col gap-8 mt-8`}
                     >
                       {subMenu2.map(({ name, link }, index) => (
                         <li className="pl-8 hover:text-pink-700" key={index}>

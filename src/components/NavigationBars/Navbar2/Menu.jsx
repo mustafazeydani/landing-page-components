@@ -4,7 +4,7 @@ import { listItems } from "./data";
 
 const Menu = () => {
   return (
-    <>
+    <ul>
       <a href="#">Home</a>
       {listItems.map(({ name, subMenu }, index) => (
         <li className="group hover:cursor-pointer" key={index}>
@@ -41,7 +41,7 @@ const Menu = () => {
           )}
         </li>
       ))}
-    </>
+    </ul>
   );
 };
 

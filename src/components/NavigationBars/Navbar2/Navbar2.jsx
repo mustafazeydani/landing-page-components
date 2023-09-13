@@ -18,9 +18,9 @@ function Navbar2() {
           </div>
 
           {/* Middle */}
-          <ul className="hidden md:flex gap-8">
+          <div className="hidden md:flex gap-8">
             <Menu />
-          </ul>
+          </div>
 
           {/* MobileNav */}
           <div
