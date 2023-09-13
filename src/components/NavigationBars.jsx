@@ -10,6 +10,10 @@ function NavigationBars({ setSelectedSection }) {
     {
       name: "Navigation Bar 2",
       link: "/navbar2",
+    },
+    {
+      name: "Navigation Bar 3",
+      link: "/navbar3",
     }
   ]);
   return (

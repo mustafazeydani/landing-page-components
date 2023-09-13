@@ -9,12 +9,12 @@ import {
 function Navbar1() {
   const [isClicked, setIsClicked] = useState(false);
   const listItems = ["Home", "Features", "Blog", "Shop"];
-  // add underline animation
+
   const menuItemStyle =
     "border-b-2 border-transparent hover:border-b-2 hover:border-[#1E0E62]";
 
   return (
-    <nav className="flex justify-between items-center relative overflow-x-clip h-24 px-4 max-w-7xl mx-auto text-[#1E0E62] z-50">
+    <nav className="flex justify-between items-center h-24 px-4 max-w-7xl mx-auto text-[#1E0E62] z-50">
       {/* Left */}
       <div>
         <a href="">
@@ -25,7 +25,7 @@ function Navbar1() {
       {/* Middle */}
       <ul
         className={`md:flex md:static gap-8 absolute top-24 
-      ${!isClicked ? "-right-full" : "right-0"} 
+      ${!isClicked ? "-left-full" : "left-0"} 
       md:p-0 p-4 md:w-auto w-full md:shadow-none shadow-md transition-all duration-500 ease-out bg-white`}
       >
         {listItems.map((item) => (
