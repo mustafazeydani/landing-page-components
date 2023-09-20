@@ -17,7 +17,7 @@ const Navbar2 = () => {
   );
 
   const Menu = () => (
-    <ul className="flex flex-col md:flex-row gap-8">
+    <ul className="flex flex-col items-center md:flex-row gap-8">
       {listItems.map((item) => (
         <li>
           <a
@@ -32,9 +32,9 @@ const Navbar2 = () => {
   );
 
   return (
-    <nav className="bg-[#2F1893] text-white">
+    <nav className="bg-[#2F1893] text-white fixed inset-0 z-50 h-24">
       {/* NavBar */}
-      <div className="flex justify-between items-center h-24 max-w-7xl mx-auto px-6">
+      <div className="h-full flex justify-between items-center max-w-7xl mx-auto px-6">
         {/* Search Input */}
         <div className="hidden md:block">
           <SearchInput />

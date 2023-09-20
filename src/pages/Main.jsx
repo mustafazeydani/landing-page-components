@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import NavigationBars from "../components/NavigationBars";
+import HeroSections from "../components/HeroSections";
 
 function Main() {
   const [selectedSection, setSelectedSection] = useState(null);
@@ -29,11 +30,20 @@ function Main() {
           >
             Navbars
           </button>
+          <button
+            className="btn"
+            onClick={() => setSelectedSection("heroSections")}
+          >
+            Hero Sections
+          </button>
         </div>
-      ) : (
-        selectedSection === "navigationBars" && (
+      ) : 
+        selectedSection === "navigationBars" ? (
           <NavigationBars setSelectedSection={setSelectedSection} />
         )
+      :
+      selectedSection === "heroSections" && (
+        <HeroSections setSelectedSection={setSelectedSection}/>
       )}
     </div>
   );

@@ -14,7 +14,7 @@ function Navbar1() {
     "border-b-2 border-transparent hover:border-b-2 hover:border-[#1E0E62]";
 
   return (
-    <nav className="flex justify-between items-center h-24 px-4 max-w-7xl mx-auto text-[#1E0E62] z-50">
+    <nav className="w-full flex justify-between items-center h-24 px-4 max-w-7xl mx-auto text-[#1E0E62] fixed inset-0 z-50">
       {/* Left */}
       <div>
         <a href="">
