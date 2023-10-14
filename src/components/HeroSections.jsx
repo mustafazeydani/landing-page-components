@@ -15,6 +15,10 @@ const HeroSections = ({ setSelectedSection }) => {
       name: "Hero Section 3",
       link: "/hero3",
     },
+    {
+      name: "Hero Section 4",
+      link: "/hero4",
+    },
   ]);
   return (
     <>

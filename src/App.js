@@ -10,6 +10,8 @@ import Navbar3 from "./components/NavigationBars/Navbar3/Navbar3";
 import HeroSection1 from "./components/HeroSections/HeroSection1/HeroSection1";
 import HeroSection2 from "./components/HeroSections/HeroSection2/HeroSection2";
 import HeroSection3 from "./components/HeroSections/HeroSection3/HeroSection3";
+import HeroSection4 from "./components/HeroSections/HeroSection4/HeroSection4";
+
 function App() {
   return (
     <div className="App relative">
@@ -22,6 +24,7 @@ function App() {
           <Route path="/hero1" element={<HeroSection1 />}/>
           <Route path="/hero2" element={<HeroSection2 />}/>
           <Route path="/hero3" element={<HeroSection3 />}/>
+          <Route path="/hero4" element={<HeroSection4 />}/>
           <Route path="*" element={<h1>404 Not Found</h1>}/>
         </Routes>
       </Router>
