@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/landing-page-components/static/css/main.0764e8ea.css",
-    "main.js": "/landing-page-components/static/js/main.360cb720.js",
-    "static/media/startup-white.svg": "/landing-page-components/static/media/startup-white.6ea8f52610fbe95493401ac24fe4c476.svg",
-    "static/media/startup.svg": "/landing-page-components/static/media/startup.106305fda94331f9afd881c7efc5152b.svg",
+    "main.css": "/landing-page-components/static/css/main.228588e9.css",
+    "main.js": "/landing-page-components/static/js/main.b43861a1.js",
+    "static/media/Hero.png": "/landing-page-components/static/media/Hero.91a711a94cb02286ae2c.png",
+    "static/media/Mask.png": "/landing-page-components/static/media/Mask.65906438656a6ac3efc0.png",
+    "static/media/startup-white.svg": "/landing-page-components/static/media/startup-white.ace8b7d5e6a2deb3b56f24053a32640c.svg",
+    "static/media/startup.svg": "/landing-page-components/static/media/startup.d7905f1fbfbac13224cf441ce5c946f4.svg",
     "index.html": "/landing-page-components/index.html",
-    "main.0764e8ea.css.map": "/landing-page-components/static/css/main.0764e8ea.css.map",
-    "main.360cb720.js.map": "/landing-page-components/static/js/main.360cb720.js.map"
+    "main.228588e9.css.map": "/landing-page-components/static/css/main.228588e9.css.map",
+    "main.b43861a1.js.map": "/landing-page-components/static/js/main.b43861a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.0764e8ea.css",
-    "static/js/main.360cb720.js"
+    "static/css/main.228588e9.css",
+    "static/js/main.b43861a1.js"
   ]
 }
