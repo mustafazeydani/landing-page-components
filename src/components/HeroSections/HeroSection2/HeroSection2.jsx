@@ -5,8 +5,8 @@ const HeroSection2 = () => {
   return (
     <>
       <Navbar2 />
-      <div className="h-screen bg-[#2F1893] pt-24 px-6">
-        <div className="h-full flex flex-col justify-around items-center max-w-3xl mx-auto text-center text-white">
+      <div className="min-h-[100vh] bg-[#2F1893] pt-24 px-6">
+        <div className="h-full flex flex-col justify-around items-center max-w-3xl mx-auto text-center text-white gap-8">
           <div>
             <h2 className="text-7xl font-semibold mb-12">
               Let's Make Design Fast and Easy
